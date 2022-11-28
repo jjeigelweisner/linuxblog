@@ -17,4 +17,6 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] 
 
 # Update list of packages and install VirtualBox 6.1
 sudo apt update
-sudo apt install virtualbox-6.1
+sudo apt install -y virtualbox-6.1
+
+rm oracle_vbox_2016.asc 
